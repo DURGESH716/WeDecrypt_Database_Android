@@ -38,6 +38,8 @@ It can also render the messages into self-contained html files including voice m
       ```
       ./decrypt-db.py decrypt --input EnMicroMsg.db --imei <device id> --uin <uin>
       ```
+  If the above decryption doesn't work, you can also try the [password cracker](https://github.com/chg-hou/EnMicroMsg.db-Password-Cracker)
+  to brute-force the key. The encryption key is not very strong.
 
       NOTE: you may need to try different ways to get device id and find one that can decrypt the
       database. Some phones may have multiple IMEIs, you may need to try them all.
