@@ -45,8 +45,6 @@ It can also render the messages into self-contained html files including voice m
       database. Some phones may have multiple IMEIs, you may need to try them all.
       The command will dump decrypted database at `EnMicroMsg.db.decrypted`.
 
-  If the above decryption doesn't work, you can also try the [password cracker](https://github.com/chg-hou/EnMicroMsg.db-Password-Cracker)
-  to brute-force the key. The encryption key is not very strong.
 
 3. Copy the WeChat user resource directory `/mnt/sdcard/tencent/MicroMsg/${userid}/{avatar,emoji,image2,sfs,video,voice2}` from the phone to the `resource` directory:
 	+ `./android-interact.sh res`
@@ -84,9 +82,3 @@ It can also render the messages into self-contained html files including voice m
     The output file is `output.html`.
 
     Check `./dump-html.py -h` to use different paths.
-
-### Examples:
-Screenshots of generated html:
-
-![byvoid](https://github.com/ppwwyyxx/wechat-dump/raw/master/screenshots/byvoid.jpg)
-
